@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.btn-group{
+  width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+  width: 100% !important;
+}
+.btn-group .button {
+  text-decoration: none;
+  background-color: #61dafb;
+  border: 1px solid  !important;
+  padding: 15px 32px !important;
+  text-align: center !important;
+  font-size: 16px !important;
+  cursor: pointer !important;
+  display: block !important;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41 !important;
+}
+a{
+  text-decoration: none;
+}
