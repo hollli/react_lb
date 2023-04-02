@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// add more pages">
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/linkmainpage.png" afterDir="false" />
+    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// add more pages+main link">
+      <change afterPath="$PROJECT_DIR$/my-app/src/Components/CarouselBoxHk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/css/About.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/css/allPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-knife-butterflies-uhdpaper.com-4K-8.2922.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-playing-guitar-art-4k-wallpaper-3840x2160-uhdpaper.com-465.0_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-sky-lantern-sunset-art-school-uniform-student-uhdpaper.com-4K-8.2930.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-sleeping-drawing-computer-cats-uhdpaper.com-4K-8.2914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girls-train-digital-art-uhdpaper.com-4K-8.2932.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/img/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react_lb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react_lb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -40,7 +50,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-app/src/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -52,7 +63,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src\img\assets" />
       <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src\css" />
       <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src\img" />
       <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src" />
@@ -103,7 +118,7 @@
       <updated>1676444206200</updated>
       <workItem from="1676444207779" duration="3837000" />
       <workItem from="1680366664152" duration="231000" />
-      <workItem from="1680439562398" duration="6336000" />
+      <workItem from="1680439562398" duration="22604000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -119,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680444960805</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lb2// add more pages+main link">
+      <created>1680446102293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680446102293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +166,7 @@
     </ignored-roots>
     <MESSAGE value="lb1" />
     <MESSAGE value="lb2// add more pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="lb2// add more pages" />
+    <MESSAGE value="lb2// add more pages+main link" />
+    <option name="LAST_COMMIT_MESSAGE" value="lb2// add more pages+main link" />
   </component>
 </project>

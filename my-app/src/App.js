@@ -21,7 +21,7 @@ function App() {
           <div> <h1> Ni hao bracho!</h1>
               <div className="btn-group">
                   <a href="http://localhost:3000/About">
-                      <Button className="button">About</Button>
+                      <Button className="button" id="idAbout">About</Button>
                   </a>
                   <a href="http://localhost:3000/Contacts" >
                       <Button className="button">Contacts</Button>
@@ -44,5 +44,4 @@ function App() {
 
   );
 }
-
 export default App;
