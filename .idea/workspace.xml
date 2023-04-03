@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// add more pages+main link">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Components/CarouselBoxHk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/css/About.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/css/allPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-knife-butterflies-uhdpaper.com-4K-8.2922.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-playing-guitar-art-4k-wallpaper-3840x2160-uhdpaper.com-465.0_b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-sky-lantern-sunset-art-school-uniform-student-uhdpaper.com-4K-8.2930.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girl-sleeping-drawing-computer-cats-uhdpaper.com-4K-8.2914.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/assets/anime-girls-train-digital-art-uhdpaper.com-4K-8.2932.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/img/background.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react_lb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react_lb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/App.css" afterDir="false" />
-    </list>
+    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// need fix simple errors but its work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +102,7 @@
       <updated>1676444206200</updated>
       <workItem from="1676444207779" duration="3837000" />
       <workItem from="1680366664152" duration="231000" />
-      <workItem from="1680439562398" duration="22604000" />
+      <workItem from="1680439562398" duration="22729000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -141,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680446102293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lb2// need fix simple errors but its work">
+      <created>1680462517504</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680462517504</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +158,7 @@
     <MESSAGE value="lb1" />
     <MESSAGE value="lb2// add more pages" />
     <MESSAGE value="lb2// add more pages+main link" />
-    <option name="LAST_COMMIT_MESSAGE" value="lb2// add more pages+main link" />
+    <MESSAGE value="lb2// need fix simple errors but its work" />
+    <option name="LAST_COMMIT_MESSAGE" value="lb2// need fix simple errors but its work" />
   </component>
 </project>
