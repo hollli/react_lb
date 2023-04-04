@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import wife from './img/linkmainpage.png';
 import './css/App.css';
-import {Button} from "react-bootstrap";
+import Button from 'react-bootstrap/Button';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -18,7 +18,8 @@ function App() {
           <a href="http://localhost:3000/Home">
               <img src={wife} className="wife" alt="logo" />
           </a>
-          <div> <h1> Ni hao bracho!</h1>
+          <div>
+              <h1> Ni hao bracho!</h1>
               <div className="btn-group">
                   <a href="http://localhost:3000/About">
                       <Button className="button" id="idAbout">About</Button>
@@ -29,6 +30,10 @@ function App() {
                   <a href="http://localhost:3000/Blog" >
                       <Button className="button">Blog</Button>
                   </a>
+
+                  <input variant="outline-info" placeholder="Search" type="text" className="App "/>
+                      <Button className="button">Search</Button>
+
             </div>
           </div>
       </header>

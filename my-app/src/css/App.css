@@ -28,6 +28,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+input{
+  width: -webkit-fill-available;
+  height: 44px;
+  margin-top: 2px;
+}
 
 .App-link {
   color: #61dafb;

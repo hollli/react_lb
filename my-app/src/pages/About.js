@@ -48,9 +48,8 @@ export class About extends Component {
                                     <img className="d-block w-100" src="https://programminglibrarian.org/sites/default/files/partnerships_2.jpg" alt="picture fifth"/>
                                     <p> Lorem </p>
                                 </Tab.Pane></Tab.Content></Col></Row></Tab.Container>
-                </div>
-           );
+            </div>
+        );
     }
 }
 export default About;
-

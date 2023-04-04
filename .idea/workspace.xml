@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// need fix simple errors but its work" />
+    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// need fix simple errors but its work+">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/About.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +109,8 @@
       <workItem from="1676444207779" duration="3837000" />
       <workItem from="1680366664152" duration="231000" />
       <workItem from="1680439562398" duration="22729000" />
+      <workItem from="1680540673143" duration="641000" />
+      <workItem from="1680624711218" duration="5471000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -132,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680462517504</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lb2// need fix simple errors but its work+">
+      <created>1680540717455</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680540717455</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +174,7 @@
     <MESSAGE value="lb2// add more pages" />
     <MESSAGE value="lb2// add more pages+main link" />
     <MESSAGE value="lb2// need fix simple errors but its work" />
-    <option name="LAST_COMMIT_MESSAGE" value="lb2// need fix simple errors but its work" />
+    <MESSAGE value="lb2// need fix simple errors but its work+" />
+    <option name="LAST_COMMIT_MESSAGE" value="lb2// need fix simple errors but its work+" />
   </component>
 </project>
