@@ -8,7 +8,8 @@ import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Blog from "./pages/Blog";
 import React from "react";
-
+// import './css/App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
 
   return (

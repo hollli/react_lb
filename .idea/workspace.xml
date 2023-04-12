@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// update lb2">
+    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb2// need fix simple errors but its work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/pages/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/Blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/Home.js" afterDir="false" />
     </list>
@@ -48,6 +49,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -168,7 +170,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
