@@ -4,8 +4,34 @@
 /*.d-block_w-100{*/
 /*    margin-top: 1500px;*/
 /*}*/
-.main{
+.main {
 }
-.col-sm-9{
-    margin-top: 50%;
+
+.col-sm-9 {
+    margin-top: 50% !important;
+    width: 100% !important;
+    margin-left: 200px;
+}
+
+.myIMG{
+    top: 100px;
+    position: absolute !important;
+    width: auto !important;
+    height: 200px !important;
+    border-radius: 50px !important;
+    display: inline !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.col-sm-3 {
+    top: 100px;
+    position: absolute;
+    width: 192px !important;
+    max-width: 192px !important;
+}
+
+.container2 {
+    margin: auto;
+    width: 30%;
 }

@@ -50,9 +50,15 @@ input{
   width: 50% !important;
   margin-left: auto;
   margin-right: auto;
+  display: block !important;
+}
+.btn-group a{
+  padding-right: 20px;
 }
 .button{
   width: 100% !important;
+  padding-right: 200px;
+  text-decoration: none !important;
 }
 h1,.App-logo{
   opacity: 0.9;
@@ -84,4 +90,19 @@ a{
   top:43px;
   background-repeat:no-repeat;
   background-size:cover;
+}
+.links{
+  position: absolute;
+  z-index: 9999999;
+  top: 10px;
+  display: inline-flex;
+}
+.links button{
+  background-color: #61dafb;
+  border-color: black;
+  width: 150px !important;
+  margin-right: 5px !important;
+}
+input{
+  border-radius: 5px;
 }
