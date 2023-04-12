@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb3// fix About.css" />
+    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb3// add overflow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/Home.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +110,7 @@
       <workItem from="1680439562398" duration="22729000" />
       <workItem from="1680540673143" duration="641000" />
       <workItem from="1680624711218" duration="8894000" />
-      <workItem from="1681316397572" duration="16253000" />
+      <workItem from="1681316397572" duration="17213000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -165,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681334649722</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lb3// add overflow">
+      <created>1681334841254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681334841254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +206,7 @@
     <MESSAGE value="lb2// update lb2" />
     <MESSAGE value="lb3// add blog + fix main page and button" />
     <MESSAGE value="lb3// fix About.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="lb3// fix About.css" />
+    <MESSAGE value="lb3// add overflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="lb3// add overflow" />
   </component>
 </project>
