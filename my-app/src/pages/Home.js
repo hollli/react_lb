@@ -23,7 +23,7 @@ class Home extends Component {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <Card className="m-4 text-center" bg="light" border="primary">
+                        <Card className="m-4 text-center" bg="light" >
                             <Card.Img
                                 className="img"
                                 variant="top"
@@ -34,7 +34,7 @@ class Home extends Component {
                                 <Card.Text>
                                     ༼ つ ◕_◕ ༽つ
                                 </Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary">About Developers</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -50,7 +50,7 @@ class Home extends Component {
                                 <Card.Text>
                                     ༼ つ ◕_◕ ༽つ
                                 </Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary">About Naturalists</Button>
                             </Card.Body>
                         </Card>
                     </div>
@@ -66,7 +66,7 @@ class Home extends Component {
                                 <Card.Text>
                                     ༼ つ ◕_◕ ༽つ
                                 </Card.Text>
-                                <Button variant="primary">About team</Button>
+                                <Button variant="primary">About Marketers</Button>
                             </Card.Body>
                         </Card>
                     </div>

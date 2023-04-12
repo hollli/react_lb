@@ -16,12 +16,13 @@
     padding-top: 50px;
     width: 320px;
 }
-
+.col{
+    border-color: black;
+}
 .row {
     padding-top: 30%;
     color: black;
     position: absolute;
-
     /*padding-right: 0 !important;*/
     padding-left: 25px !important;
 }
