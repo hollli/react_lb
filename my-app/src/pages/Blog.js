@@ -1,85 +1,170 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 import '../css/allPage.css';
 import '../css/Blog.css';
-import {Col} from "react-bootstrap";
-import {Button, Card, CardImg, Container, ListGroup} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BlogPosts from "../Components/BlogPosts";
+import { LangContext } from "../Components/LangContext";
 
-class Blog extends Component {
-    render() {
-        return (
-            <div className="container">
-                <div className="con1">
-                    <div className="d-flex align-items-center me-5">
-                        <div className="flex-shrink-0">
-                            <img
-                                width={150}
-                                height={150}
-                                className="mr-3"
-                                src="https://images.wallpaperscraft.com/image/single/deer_mountains_art_142079_3840x2160.jpg"
-                                alt="photo"/>
-                        </div>
-                        <div className="flex-grow-1 ms-3">
-                            <h5>Blog post</h5>
-                            <p>
-                                Lorem
-                            </p>
-                        </div>
-                    </div>
-                    <div className="d-flex align-items-center me-5">
-                        <div className="flex-shrink-0">
-                            <img
-                                width={150}
-                                height={150}
-                                className="mr-3"
-                                src="https://images.wallpaperscraft.com/image/single/craft_art_bad_weather_97072_1920x1080.jpg"
-                                alt="photo"/>
-                        </div>
-                        <div className="flex-grow-1 ms-3">
-                            <h5>Blog post</h5>
-                            <p>
-                                Lorem
-                            </p>
-                        </div>
-                    </div>
-                    <div className="d-flex align-items-center me-5">
-                        <div className="flex-shrink-0">
-                            <img
-                                width={150}
-                                height={150}
-                                className="mr-3"
-                                src="https://images.wallpaperscraft.com/image/single/tree_shine_art_137305_3840x2160.jpg"
-                                alt="photo"/>
-                        </div>
-                        <div className="flex-grow-1 ms-3">
-                            <h5>Blog post</h5>
-                            <p>
-                                Lorem
-                            </p>
+const Blog = () => {
+    const [posts,setPosts] = useState([
+        {
+            id: 1,
+            variant: "warning",
+            title: "Post",
+            date: "2021-05-01T11:11:11.053Z",
+            num: "",
+            tag: "Aram",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 2,
+            variant: "info",
+            title: "Post",
+            date: "2001-01-01T11:11:11.053Z",
+            num: "",
+            tag: "sad",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 3,
+            variant: "success",
+            title: "Post",
+            date: "2021-09-01T11:11:11.053Z",
+            num: "",
+            tag: "fun",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 4,
+            variant: "success",
+            title: "Post",
+            date: "2021-09-01T11:11:11.053Z",
+            num: "",
+            tag: "fun",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 5,
+            variant: "success",
+            title: "Post",
+            date: "2021-09-01T11:11:11.053Z",
+            num: "",
+            tag: "fun",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 6,
+            variant: "success",
+            title: "Post",
+            date: "2021-09-01T11:11:11.053Z",
+            num: "",
+            tag: "fun",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 7,
+            variant: "info",
+            title: "Post",
+            date: "2021-09-01T11:11:11.053Z",
+            num: "",
+            tag: "fun",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+        {
+            id: 8,
+            variant: "success",
+            title: "Post",
+            date: "2021-09-01T11:11:11.053Z",
+            num: "",
+            tag: "fun",
+            content:
+                "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem ",
+            comments: []
+        },
+    ]);
+    const [sortDirection, setSortDirection] = useState("ASC");
+    const [tag, setTag] = useState("");
 
-                        </div>
+    const sortPosts = () => {
+        const sortedPosts = [...posts];
+        sortedPosts.sort((a, b) => {
+            if (sortDirection === "ASC") {
+                return new Date(a.date) - new Date(b.date);
+            } else {
+                return new Date(b.date) - new Date(a.date);
+            }
+        });
+        return sortedPosts;
+    };
 
-                    </div>
-                </div>
-                <div className="con2">
-                    <Col md="3"><h5 className="text-center mt-5">Categories</h5> <Card> <ListGroup variant="flush">
-                        <ListGroup.Item>category 1</ListGroup.Item>
-                        <ListGroup.Item>category 2</ListGroup.Item>
-                        <ListGroup.Item>category 3</ListGroup.Item>
-                        <ListGroup.Item>category 4</ListGroup.Item>
-                        <ListGroup.Item>category 5</ListGroup.Item>
-                    </ListGroup>
-                    </Card>
-                    </Col>
-                    <Card className="mt-3 bg-light">
-                        <Card.Body>
-                            <Card.Title>Slide widget</Card.Title>
-                            <Card.Text> Lorem </Card.Text>
-                        </Card.Body> </Card>
+    const filterPostsByTag = (posts) => {
+        if (tag === "") {
+            return posts;
+        }
+        return posts.filter((post) => post.tag === tag);
+    };
+
+    const sortedPosts = React.useMemo(() => sortPosts(), [sortDirection, posts]);
+    const filteredPosts = React.useMemo(() => filterPostsByTag(sortedPosts), [tag, sortedPosts]);
+
+    const handleSortDirectionChange = () => {
+        setSortDirection(sortDirection === "ASC" ? "DESC" : "ASC");
+    };
+
+    const handleTagChange = (event) => {
+        setTag(event.target.value);
+    };
+    const addComment = (postId, comment) => {
+        const updatedPosts = posts.map((post) => {
+            if (post.id === postId) {
+                const updatedComments = [...post.comments, comment];
+                return { ...post, comments: updatedComments };
+            }
+            return post;
+        });
+        setPosts(updatedPosts);
+    };
+    return (
+        <div className="container">
+            <div className="d-flex justify-content-between">
+                <div id="select" style={{position: "relative", right: "120px", top: "35px", display: 'none'}}>
+                    <select
+                        onChange={handleTagChange}
+                        value={tag}
+                        style={{
+                            padding: "5px",
+                            borderRadius: "5px",
+                            fontSize: "18px",
+                            position: "absolute",
+                            fontWeight: "bold",
+                            left: "1200px",
+                            top: "-125px"
+                        }}
+                    >
+                        <option value="">All Categories</option>
+                        <option value="Aram">Aram</option>
+                        <option value="fun">fun</option>
+                        <option value="sad">sad</option>
+                    </select>
                 </div>
             </div>
-        );
-    }
-}
+            <BlogPosts posts={filteredPosts} addComment={addComment}/>
+        </div>
+    );
+};
 
 export default Blog;

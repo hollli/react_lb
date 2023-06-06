@@ -8,6 +8,7 @@
     display: inline-flex;
     text-align: left;
     color: white;
+    width: 90% !important;
 }
 .d-flex{
     padding-bottom: 5px;
@@ -29,4 +30,7 @@
 img{
     width: max-content;
     border-radius: 5px;
+}
+BlogPosts{
+    width: 800px;
 }

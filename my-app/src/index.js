@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Language from "./Components/LangContext";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Language>
+        <React.StrictMode>
+            <App/>
+        </React.StrictMode>
+    </Language>
 );
 
 // If you want to start measuring performance in your app, pass a function
