@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb3// fix again">
-      <change afterPath="$PROJECT_DIR$/my-app/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb// fix again">
+      <change afterPath="$PROJECT_DIR$/my-app/src/pages/fb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/css/Blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/Blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/css/allPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/css/allPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/pages/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -128,7 +121,7 @@
       <workItem from="1683463828927" duration="12020000" />
       <workItem from="1685270167862" duration="12059000" />
       <workItem from="1685796949152" duration="1222000" />
-      <workItem from="1685982710575" duration="13241000" />
+      <workItem from="1685982710575" duration="18133000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -207,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681336258242</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lb// fix again">
+      <created>1686048198220</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686048198220</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +241,7 @@
     <MESSAGE value="lb3// add overflow" />
     <MESSAGE value="lb3// fix main" />
     <MESSAGE value="lb3// fix again" />
-    <option name="LAST_COMMIT_MESSAGE" value="lb3// fix again" />
+    <MESSAGE value="lb// fix again" />
+    <option name="LAST_COMMIT_MESSAGE" value="lb// fix again" />
   </component>
 </project>

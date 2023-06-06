@@ -151,3 +151,9 @@ button{
 ul{
     padding: 0 !important;
 }
+form{
+    margin-top: 0 !important;
+}
+input.form-control{
+    margin-bottom: 16px;
+}

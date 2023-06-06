@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, {useContext, useState} from 'react';
 import '../css/allPage.css';
 import '../css/Blog.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import BlogPosts from "../Components/BlogPosts";
-import { LangContext } from "../Components/LangContext";
-
+import {LangContext} from "../Components/LangContext";
+import { getDatabase, onValue, ref, push, set, remove, update } from "firebase/database";
+import context from "react-bootstrap/AccordionContext";
 const Blog = () => {
-    const [posts,setPosts] = useState([
+    const [posts] = useState([
         {
             id: 1,
             variant: "warning",
@@ -98,7 +99,7 @@ const Blog = () => {
     ]);
     const [sortDirection, setSortDirection] = useState("ASC");
     const [tag, setTag] = useState("");
-
+    const context = useContext(LangContext);
     const sortPosts = () => {
         const sortedPosts = [...posts];
         sortedPosts.sort((a, b) => {
@@ -128,16 +129,7 @@ const Blog = () => {
     const handleTagChange = (event) => {
         setTag(event.target.value);
     };
-    const addComment = (postId, comment) => {
-        const updatedPosts = posts.map((post) => {
-            if (post.id === postId) {
-                const updatedComments = [...post.comments, comment];
-                return { ...post, comments: updatedComments };
-            }
-            return post;
-        });
-        setPosts(updatedPosts);
-    };
+
     return (
         <div className="container">
             <div className="d-flex justify-content-between">
@@ -155,14 +147,15 @@ const Blog = () => {
                             top: "-125px"
                         }}
                     >
-                        <option value="">All Categories</option>
+
+                        <option value="">{context.language === "eu" ? "All Categories" : "Усі категорії"}</option>
                         <option value="Aram">Aram</option>
                         <option value="fun">fun</option>
                         <option value="sad">sad</option>
                     </select>
                 </div>
             </div>
-            <BlogPosts posts={filteredPosts} addComment={addComment}/>
+            <BlogPosts posts={filteredPosts} />
         </div>
     );
 };
