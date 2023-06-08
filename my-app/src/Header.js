@@ -12,8 +12,8 @@ const Header = () => {
     const [password, setPassword] = useState("");
     const [emailDirty, setEmailDirty] = useState(false);
     const [passwordDirty, setPasswordDirty] = useState(false);
-    const [emailError, setEmailError] = useState((context.language === "eu" ? "Email cannot be empty" : "Поле електронної пошти не може бути пустим"));
-    const [passwordError, setPasswordError] = useState((context.language === "eu" ? "Password cannot be empty" : "Поле пароль не може бути пустим"));
+    const [emailError, setEmailError] = useState("Email cannot be empty");
+    const [passwordError, setPasswordError] = useState("Password cannot be empty");
     const [formValid, setFormValid] = useState(false);
     const emailHandler = (e) => {
         setEmail(e.target.value);
@@ -61,16 +61,16 @@ const Header = () => {
         <>
 
             <Button className="" onClick={handleShow}>
-                {context.language === "eu" ? "Login" : "Вхід"}
+                Login
             </Button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>{context.language === "eu" ? "Log in" : "Aвторизуватися"}</Modal.Title>
+                    <Modal.Title>Log in</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <Form>
                         <Form.Group controlId="fromBasicEmail">
-                            <Form.Label>{context.language === "eu" ? "Email Address" : "Адреса електронної пошти"}</Form.Label>
+                            <Form.Label>Email Address </Form.Label>
                             {emailDirty && emailError && (
                                 <div style={{color: "red"}}>{emailError}</div>
                             )}
@@ -80,14 +80,14 @@ const Header = () => {
                                 value={email}
                                 onBlur={(e) => blurHandler(e)}
                                 type="email"
-                                placeholder={context.language === "eu" ? "Enter email" : "Введіть адресу електронної пошти"}
+                                placeholder="Enter email"
                             />
                             <Form.Text className="text-muted">
-                                {context.language === "eu" ? "We'll never share your email with anyone else." : "Ми ніколи нікому не передамо вашу електронну адресу."}
+                                We'll never share your email with anyone else.
                             </Form.Text>
                         </Form.Group>
                         <Form.Group controlId="fromBasicPassword">
-                            <Form.Label>{context.language === "eu" ? "Password" : "Пароль"}</Form.Label>
+                            <Form.Label>Password</Form.Label>
                             {passwordError && passwordDirty && (
                                 <div style={{color: "red"}}>{passwordError}</div>
                             )}
@@ -97,34 +97,34 @@ const Header = () => {
                                 value={password}
                                 onBlur={(e) => blurHandler(e)}
                                 type="password"
-                                placeholder={context.language === "eu" ? "Enter password" : "Введіть пароль"}
+                                placeholder="Enter password"
                             />
                         </Form.Group>
                         <Form.Group controlId="fromBasicCheckbox">
                             <Form.Check type="checkbox"
-                                        label={context.language === "eu" ? "Remember me" : "Запам'ятати мене"}/>
+                                        label="Remember me"/>
                         </Form.Group>
                         <Button disabled={!formValid} variant="primary" type="submit">
-                            {context.language === "eu" ? "Send" : "Відправити"}
+                            Send
                         </Button>
                     </Form>
                 </Modal.Body>
             </Modal>
-            <Form.Select
-                aria-label="Default select example"
-                style={{
-                    width: "200px",
-                    display: "inline"
-                    // marginRight: "155px",
-                    // marginLeft: "-4px"
-                }}
-                onChange={(e) => {
-                    context.setLanguage(e.target.value);
-                }}
-            >
-                <option value="eu">English</option>
-                <option value="ua">Українська</option>
-            </Form.Select>
+            {/*<Form.Select*/}
+            {/*    aria-label="Default select example"*/}
+            {/*    style={{*/}
+            {/*        width: "200px",*/}
+            {/*        display: "inline"*/}
+            {/*        // marginRight: "155px",*/}
+            {/*        // marginLeft: "-4px"*/}
+            {/*    }}*/}
+            {/*    onChange={(e) => {*/}
+            {/*        context.setLanguage(e.target.value);*/}
+            {/*    }}*/}
+            {/*>*/}
+            {/*    <option value="eu">English</option>*/}
+            {/*    <option value="ua">Українська</option>*/}
+            {/*</Form.Select>*/}
         </>
     );
 };
