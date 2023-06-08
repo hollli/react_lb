@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import wife from './img/linkmainpage.png';
 import './css/App.css';
 import Button from 'react-bootstrap/Button';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {Form} from "react-bootstrap";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contacts from "./pages/Contacts";

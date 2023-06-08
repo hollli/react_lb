@@ -1,12 +1,12 @@
-import React, { useState, useMemo, useContext } from "react";
-import { Alert, Card, Col, ListGroup, Pagination, Form, Button } from "react-bootstrap";
+import React, {useState, useMemo, useContext} from "react";
+import {Alert, Card, Col, ListGroup, Pagination, Form, Button} from "react-bootstrap";
 import Numbering from "./Numbering";
 import '../css/allPage.css';
 import button from "../pages/button";
-import { LangContext } from "./LangContext";
-import { getDatabase, ref, push, set } from "firebase/database";
+import {LangContext} from "./LangContext";
+import {getDatabase, ref, push, set} from "firebase/database";
 
-function BlogPosts({ posts }) {
+function BlogPosts({posts}) {
     const context = useContext(LangContext);
     const [post, setPost] = useState([...posts]);
     const [page, setPages] = useState(1);
@@ -63,7 +63,7 @@ function BlogPosts({ posts }) {
             const updatedPosts = post.map((p) => {
                 if (p.id === postId) {
                     const updatedComments = [...p.comments, commentText];
-                    return { ...p, comments: updatedComments };
+                    return {...p, comments: updatedComments};
                 }
                 return p;
             });
@@ -126,7 +126,7 @@ function BlogPosts({ posts }) {
 
     return (
         <>
-            <div id="hide" style={{ display: 'none', width: "-webkit-fill-available" }}>
+            <div id="hide" style={{display: 'none', width: "-webkit-fill-available"}}>
                 <div>
                     <button id="btn2" onClick={() => {
                         setSortDirection(sortDirection === "DESC" ? "ASC" : "DESC");
@@ -196,7 +196,7 @@ function BlogPosts({ posts }) {
                             height={150}
                             className="mr-3"
                             src="https://images.wallpaperscraft.com/image/single/deer_mountains_art_142079_3840x2160.jpg"
-                            alt="photo" />
+                            alt="photo"/>
                     </div>
                     <div className="flex-grow-1 ms-3">
                         <h5>{context.language === "eu" ? "Blog post" : "Допис у блозі"}</h5>
@@ -212,7 +212,7 @@ function BlogPosts({ posts }) {
                             height={150}
                             className="mr-3"
                             src="https://images.wallpaperscraft.com/image/single/craft_art_bad_weather_97072_1920x1080.jpg"
-                            alt="photo" />
+                            alt="photo"/>
                     </div>
                     <div className="flex-grow-1 ms-3">
                         <h5>{context.language === "eu" ? "Blog post" : "Допис у блозі"}</h5>
@@ -228,7 +228,7 @@ function BlogPosts({ posts }) {
                             height={150}
                             className="mr-3"
                             src="https://images.wallpaperscraft.com/image/single/tree_shine_art_137305_3840x2160.jpg"
-                            alt="photo" />
+                            alt="photo"/>
                     </div>
                     <div className="flex-grow-1 ms-3">
                         <h5>{context.language === "eu" ? "Blog post" : "Допис у блозі"}</h5>
@@ -258,11 +258,12 @@ function BlogPosts({ posts }) {
                     </Card.Body> </Card>
             </div>
             <button
-                style={{ height: '50px', position: 'absolute', top: '-80px', }}
+                style={{height: '50px', position: 'absolute', top: '-80px',}}
                 onClick={unHide}>
                 {context.language === "eu" ? "Open blog" : "Відкрити блог"}
             </button>
         </>
     );
 }
+
 export default BlogPosts;

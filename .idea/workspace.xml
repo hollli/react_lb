@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb// add bd + add comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/pages/fb.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/pages/fb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/tests/Header.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/tests/Header.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src\img" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Header component.should update email input value correctly">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Header component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -110,20 +109,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Header.displays modal window on login button click" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$/my-app" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/my-app/src/tests/Header.test.js" />
-      <test-names>
-        <test-name value="Header" />
-        <test-name value="displays modal window on login button click" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Test modal window" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -140,13 +125,23 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.Header component.should update email input value correctly" />
         <item itemvalue="Jest.Header component" />
         <item itemvalue="Jest.Header component.should display password validation error" />
         <item itemvalue="Jest.Test modal window" />
-        <item itemvalue="Jest.Header.displays modal window on login button click" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +166,7 @@
       <workItem from="1685982710575" duration="20064000" />
       <workItem from="1686097565345" duration="8470000" />
       <workItem from="1686184191501" duration="45000" />
+      <workItem from="1686205283616" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -263,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686053041475</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="lb// add bd + add comment">
+      <created>1686205361983</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686205361983</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
