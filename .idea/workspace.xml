@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="068bc749-df1a-4a91-9405-f23e676c775d" name="Changes" comment="lb// add bd + add comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/tests/Header.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/tests/Header.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test/Amazon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -67,7 +66,7 @@
       <recent name="C:\Users\admin\WebstormProjects\react_lb\my-app\src\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="Jest.Header">
     <configuration name="Header component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -81,7 +80,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Header component.should display password validation error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Header component.displays error messages on form submission with invalid data" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
@@ -91,11 +90,11 @@
       <test-file value="$PROJECT_DIR$/my-app/src/tests/Header.test.js" />
       <test-names>
         <test-name value="Header component" />
-        <test-name value="should display password validation error" />
+        <test-name value="displays error messages on form submission with invalid data" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Header component.should update email input value correctly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Header component.opens and closes modal on button click" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
@@ -105,11 +104,11 @@
       <test-file value="$PROJECT_DIR$/my-app/src/tests/Header.test.js" />
       <test-names>
         <test-name value="Header component" />
-        <test-name value="should update email input value correctly" />
+        <test-name value="opens and closes modal on button click" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Test modal window" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Header component.renders login button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
@@ -118,30 +117,34 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/my-app/src/tests/Header.test.js" />
       <test-names>
-        <test-name value="Test modal window" />
+        <test-name value="Header component" />
+        <test-name value="renders login button" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Header" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/my-app/src/tests/Header.test.js" />
+      <test-names>
+        <test-name value="Header" />
       </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/my-app/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.Header component.should update email input value correctly" />
+        <item itemvalue="Jest.Header" />
         <item itemvalue="Jest.Header component" />
-        <item itemvalue="Jest.Header component.should display password validation error" />
-        <item itemvalue="Jest.Test modal window" />
+        <item itemvalue="Jest.Header component.displays error messages on form submission with invalid data" />
+        <item itemvalue="Jest.Header component.opens and closes modal on button click" />
+        <item itemvalue="Jest.Header component.renders login button" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +169,10 @@
       <workItem from="1685982710575" duration="20064000" />
       <workItem from="1686097565345" duration="8470000" />
       <workItem from="1686184191501" duration="45000" />
-      <workItem from="1686205283616" duration="967000" />
+      <workItem from="1686205283616" duration="1307000" />
+      <workItem from="1686267541301" duration="43000" />
+      <workItem from="1686269654299" duration="2284000" />
+      <workItem from="1686688785460" duration="5291000" />
     </task>
     <task id="LOCAL-00001" summary="lb1">
       <created>1680366704626</created>
@@ -266,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686205361983</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lb// add bd + add comment">
+      <created>1686206351111</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686206351111</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

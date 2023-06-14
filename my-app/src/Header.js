@@ -61,7 +61,7 @@ const Header = () => {
         <>
 
             <Button className="" onClick={handleShow}>
-                Login
+                {context.language === "eu" ? "Login" : "Логін"}
             </Button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
@@ -110,21 +110,21 @@ const Header = () => {
                     </Form>
                 </Modal.Body>
             </Modal>
-            {/*<Form.Select*/}
-            {/*    aria-label="Default select example"*/}
-            {/*    style={{*/}
-            {/*        width: "200px",*/}
-            {/*        display: "inline"*/}
-            {/*        // marginRight: "155px",*/}
-            {/*        // marginLeft: "-4px"*/}
-            {/*    }}*/}
-            {/*    onChange={(e) => {*/}
-            {/*        context.setLanguage(e.target.value);*/}
-            {/*    }}*/}
-            {/*>*/}
-            {/*    <option value="eu">English</option>*/}
-            {/*    <option value="ua">Українська</option>*/}
-            {/*</Form.Select>*/}
+            <Form.Select
+                aria-label="Default select example"
+                style={{
+                    width: "200px",
+                    display: "inline"
+                    // marginRight: "155px",
+                    // marginLeft: "-4px"
+                }}
+                onChange={(e) => {
+                    context.setLanguage(e.target.value);
+                }}
+            >
+                <option value="eu">English</option>
+                <option value="ua">Українська</option>
+            </Form.Select>
         </>
     );
 };
